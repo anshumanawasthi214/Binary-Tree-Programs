@@ -26,8 +26,7 @@ public class Build_tree_preorder {
     }
     public static void main(String[] args) {
         int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        BinaryTree bin=new BinaryTree();
-        Node root=bin.buildTree(nodes);
+        Node root=BinaryTree.buildTree(nodes);
       System.out.println(root.data);
     }
 }
